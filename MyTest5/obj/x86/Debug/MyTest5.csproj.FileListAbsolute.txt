@@ -1,0 +1,12 @@
+C:\Users\Endrit\Desktop\MyTest5\MyTest5\bin\Debug\MyTest5.rxtmg
+C:\Users\Endrit\Desktop\MyTest5\MyTest5\bin\Debug\MyTest5.rxtst
+C:\Users\Endrit\Desktop\MyTest5\MyTest5\bin\Debug\MyTest5.exe.config
+C:\Users\Endrit\Desktop\MyTest5\MyTest5\bin\Debug\MyTest5.xml
+C:\Users\Endrit\Desktop\MyTest5\MyTest5\bin\Debug\MyTest5.exe
+C:\Users\Endrit\Desktop\MyTest5\MyTest5\bin\Debug\MyTest5.pdb
+C:\Users\Endrit\Desktop\MyTest5\MyTest5\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\Endrit\Desktop\MyTest5\MyTest5\obj\x86\Debug\MyTest5.csprojAssemblyReference.cache
+C:\Users\Endrit\Desktop\MyTest5\MyTest5\obj\x86\Debug\MyTest5.csproj.CoreCompileInputs.cache
+C:\Users\Endrit\Desktop\MyTest5\MyTest5\obj\x86\Debug\MyTest5.csproj.CopyComplete
+C:\Users\Endrit\Desktop\MyTest5\MyTest5\obj\x86\Debug\MyTest5.exe
+C:\Users\Endrit\Desktop\MyTest5\MyTest5\obj\x86\Debug\MyTest5.pdb
