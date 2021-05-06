@@ -25,25 +25,685 @@ mode="Global">
 	<variables>
 	</variables>
 	<recorditems>
-		<openwebsiterecorditem
-		args=""
-		browser="Chrome"
-		clearcache="False"
-		clearcookies="False"
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
 		enabled="True"
-		incognito="False"
-		instrument="True"
-		killexisting="False"
-		maximized="False"
-		optional="False">
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="0a67d70a-6100-4736-b7a5-e8cb2a8ae97c"
+		sx="86"
+		sy="375"
+		warnoutofbounds="False">
 			<comment>
 			</comment>
 			<bindings>
 			</bindings>
-			<url>
-				google.com
-			</url>
-		</openwebsiterecorditem>
+			<info
+			id="89134210-5c80-4f6e-948c-b993c5ef08e5"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="wpfelement"
+				dontcache="False"
+				enabled="True"
+				flavor="wpf"
+				hasfocus="False"
+				index="0"
+				prefcap="cell"
+				rect="24,367,125,16"
+				role="cell"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="isheader"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="rowindex"
+					type="System.Int32">
+						8
+					</attribute>
+					<attribute
+					name="selected"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						TestTemplate
+					</attribute>
+					<attribute
+					name="automationproperties_acceleratorkey"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="automationproperties_accesskey"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="automationproperties_helptext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="automationproperties_iscolumnheader"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="automationproperties_isrequiredforform"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="automationproperties_isrowheader"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="automationproperties_itemstatus"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="automationproperties_itemtype"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="automationproperties_name"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="basetype"
+					type="System.String">
+						System.Windows.Controls.ContentControl
+					</attribute>
+					<attribute
+					name="fulltype"
+					type="System.String">
+						Xceed.Wpf.DataGrid.DataCell
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						DataCell
+					</attribute>
+					<dynamicattribute
+					description="The WPF Xceed.Wpf.DataGrid.DataCell.ActualHeight property of type Double."
+					name="ActualHeight"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Xceed.Wpf.DataGrid.DataCell.ActualWidth property of type Double."
+					name="ActualWidth"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Xceed.Wpf.DataGrid.DataCell.AllowDrop property of type Boolean."
+					name="AllowDrop"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Xceed.Wpf.DataGrid.DataCell.Background property of type Brush."
+					name="Background"
+					readonly="False"
+					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Xceed.Wpf.DataGrid.DataCell.BackgroundColor property of type String."
+					name="BackgroundColor"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Xceed.Wpf.DataGrid.DataCell.BindingGroup property of type BindingGroup."
+					name="BindingGroup"
+					readonly="False"
+					type="System.Windows.Data.BindingGroup, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Xceed.Wpf.DataGrid.DataCell.BitmapEffect property of type BitmapEffect."
+					name="BitmapEffect"
+					readonly="False"
+					type="System.Windows.Media.Effects.BitmapEffect, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Xceed.Wpf.DataGrid.DataCell.BitmapEffectInput property of type BitmapEffectInput."
+					name="BitmapEffectInput"
+					readonly="False"
+					type="System.Windows.Media.Effects.BitmapEffectInput, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Xceed.Wpf.DataGrid.DataCell.BorderBrush property of type Brush."
+					name="BorderBrush"
+					readonly="False"
+					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Xceed.Wpf.DataGrid.DataCell.CacheMode property of type CacheMode."
+					name="CacheMode"
+					readonly="False"
+					type="System.Windows.Media.CacheMode, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Xceed.Wpf.DataGrid.DataCell.CellDisplayEditorMatchingConditions property of type CellEditorDisplayConditions."
+					name="CellDisplayEditorMatchingConditions"
+					readonly="False"
+					type="Xceed.Wpf.DataGrid.CellEditorDisplayConditions, Xceed.Wpf.DataGrid.v7.0, Version=7.0.20452.13100, Culture=neutral, PublicKeyToken=ba83ff368b7563c6">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Xceed.Wpf.DataGrid.DataCell.CellEditorContext property of type CellEditorContext."
+					name="CellEditorContext"
+					type="Xceed.Wpf.DataGrid.CellEditorContext, Xceed.Wpf.DataGrid.v7.0, Version=7.0.20452.13100, Culture=neutral, PublicKeyToken=ba83ff368b7563c6">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Xceed.Wpf.DataGrid.DataCell.Clip property of type Geometry."
+					name="Clip"
+					readonly="False"
+					type="System.Windows.Media.Geometry, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Xceed.Wpf.DataGrid.DataCell.ClipToBounds property of type Boolean."
+					name="ClipToBounds"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Xceed.Wpf.DataGrid.DataCell.Content property of type Object."
+					name="Content"
+					readonly="False"
+					type="System.Object">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Xceed.Wpf.DataGrid.DataCell.ContentStringFormat property of type String."
+					name="ContentStringFormat"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Xceed.Wpf.DataGrid.DataCell.ContextMenu property of type ContextMenu."
+					name="ContextMenu"
+					readonly="False"
+					type="System.Windows.Controls.ContextMenu, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Xceed.Wpf.DataGrid.DataCell.CurrentBackground property of type Brush."
+					name="CurrentBackground"
+					readonly="False"
+					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Xceed.Wpf.DataGrid.DataCell.CurrentForeground property of type Brush."
+					name="CurrentForeground"
+					readonly="False"
+					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Xceed.Wpf.DataGrid.DataCell.DataContext property of type Object."
+					name="DataContext"
+					readonly="False"
+					type="System.Object">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Xceed.Wpf.DataGrid.DataCell.DataGridContext property of type DataGridContext."
+					name="DataGridContext"
+					type="Xceed.Wpf.DataGrid.DataGridContext, Xceed.Wpf.DataGrid.v7.0, Version=7.0.20452.13100, Culture=neutral, PublicKeyToken=ba83ff368b7563c6">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Xceed.Wpf.DataGrid.DataCell.DefaultStyleKey property of type Object."
+					name="DefaultStyleKey"
+					readonly="False"
+					type="System.Object">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Xceed.Wpf.DataGrid.DataCell.Effect property of type Effect."
+					name="Effect"
+					readonly="False"
+					type="System.Windows.Media.Effects.Effect, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Xceed.Wpf.DataGrid.DataCell.FlowDirection property of type FlowDirection."
+					name="FlowDirection"
+					readonly="False"
+					type="System.Windows.FlowDirection, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Xceed.Wpf.DataGrid.DataCell.Focusable property of type Boolean."
+					name="Focusable"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Xceed.Wpf.DataGrid.DataCell.FontSize property of type Double."
+					name="FontSize"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Xceed.Wpf.DataGrid.DataCell.ForceCursor property of type Boolean."
+					name="ForceCursor"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Xceed.Wpf.DataGrid.DataCell.Foreground property of type Brush."
+					name="Foreground"
+					readonly="False"
+					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Xceed.Wpf.DataGrid.DataCell.ForegroundColor property of type String."
+					name="ForegroundColor"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Xceed.Wpf.DataGrid.DataCell.HasContent property of type Boolean."
+					name="HasContent"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Xceed.Wpf.DataGrid.DataCell.HasValidationError property of type Boolean."
+					name="HasValidationError"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Xceed.Wpf.DataGrid.DataCell.Height property of type Double."
+					name="Height"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Xceed.Wpf.DataGrid.DataCell.HorizontalAlignment property of type HorizontalAlignment."
+					name="HorizontalAlignment"
+					readonly="False"
+					type="System.Windows.HorizontalAlignment, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Xceed.Wpf.DataGrid.DataCell.HorizontalContentAlignment property of type HorizontalAlignment."
+					name="HorizontalContentAlignment"
+					readonly="False"
+					type="System.Windows.HorizontalAlignment, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Xceed.Wpf.DataGrid.DataCell.InactiveSelectionBackground property of type Brush."
+					name="InactiveSelectionBackground"
+					readonly="False"
+					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Xceed.Wpf.DataGrid.DataCell.InactiveSelectionForeground property of type Brush."
+					name="InactiveSelectionForeground"
+					readonly="False"
+					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Xceed.Wpf.DataGrid.DataCell.IsBeingEdited property of type Boolean."
+					name="IsBeingEdited"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Xceed.Wpf.DataGrid.DataCell.IsCellFocusScope property of type Boolean."
+					name="IsCellFocusScope"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Xceed.Wpf.DataGrid.DataCell.IsCurrent property of type Boolean."
+					name="IsCurrent"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Xceed.Wpf.DataGrid.DataCell.IsCurrentSearchMatch property of type Boolean."
+					name="IsCurrentSearchMatch"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Xceed.Wpf.DataGrid.DataCell.IsDirty property of type Boolean."
+					name="IsDirty"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Xceed.Wpf.DataGrid.DataCell.IsHitTestVisible property of type Boolean."
+					name="IsHitTestVisible"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Xceed.Wpf.DataGrid.DataCell.IsInputMethodEnabled property of type Boolean."
+					name="IsInputMethodEnabled"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Xceed.Wpf.DataGrid.DataCell.IsManipulationEnabled property of type Boolean."
+					name="IsManipulationEnabled"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Xceed.Wpf.DataGrid.DataCell.IsSearchMatch property of type Boolean."
+					name="IsSearchMatch"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Xceed.Wpf.DataGrid.DataCell.IsSelected property of type Boolean."
+					name="IsSelected"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Xceed.Wpf.DataGrid.DataCell.IsTabStop property of type Boolean."
+					name="IsTabStop"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Xceed.Wpf.DataGrid.DataCell.IsValidationErrorRestrictive property of type Boolean."
+					name="IsValidationErrorRestrictive"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Xceed.Wpf.DataGrid.DataCell.LayoutTransform property of type Transform."
+					name="LayoutTransform"
+					readonly="False"
+					type="System.Windows.Media.Transform, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Xceed.Wpf.DataGrid.DataCell.MaxHeight property of type Double."
+					name="MaxHeight"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Xceed.Wpf.DataGrid.DataCell.MaxWidth property of type Double."
+					name="MaxWidth"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Xceed.Wpf.DataGrid.DataCell.MinHeight property of type Double."
+					name="MinHeight"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Xceed.Wpf.DataGrid.DataCell.MinWidth property of type Double."
+					name="MinWidth"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Xceed.Wpf.DataGrid.DataCell.Opacity property of type Double."
+					name="Opacity"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Xceed.Wpf.DataGrid.DataCell.OpacityMask property of type Brush."
+					name="OpacityMask"
+					readonly="False"
+					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Xceed.Wpf.DataGrid.DataCell.OverridesDefaultStyle property of type Boolean."
+					name="OverridesDefaultStyle"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Xceed.Wpf.DataGrid.DataCell.ParentCell property of type Cell."
+					name="ParentCell"
+					type="Xceed.Wpf.DataGrid.Cell, Xceed.Wpf.DataGrid.v7.0, Version=7.0.20452.13100, Culture=neutral, PublicKeyToken=ba83ff368b7563c6">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Xceed.Wpf.DataGrid.DataCell.ParentColumn property of type ColumnBase."
+					name="ParentColumn"
+					type="Xceed.Wpf.DataGrid.ColumnBase, Xceed.Wpf.DataGrid.v7.0, Version=7.0.20452.13100, Culture=neutral, PublicKeyToken=ba83ff368b7563c6">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Xceed.Wpf.DataGrid.DataCell.ParentForeground property of type Brush."
+					name="ParentForeground"
+					readonly="False"
+					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Xceed.Wpf.DataGrid.DataCell.ParentRow property of type Row."
+					name="ParentRow"
+					type="Xceed.Wpf.DataGrid.Row, Xceed.Wpf.DataGrid.v7.0, Version=7.0.20452.13100, Culture=neutral, PublicKeyToken=ba83ff368b7563c6">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Xceed.Wpf.DataGrid.DataCell.ReadOnly property of type Boolean."
+					name="ReadOnly"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Xceed.Wpf.DataGrid.DataCell.RenderTransform property of type Transform."
+					name="RenderTransform"
+					readonly="False"
+					type="System.Windows.Media.Transform, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Xceed.Wpf.DataGrid.DataCell.RenderTransformOrigin property of type Point."
+					name="RenderTransformOrigin"
+					readonly="False"
+					type="System.Windows.Point, WindowsBase, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Xceed.Wpf.DataGrid.DataCell.RowDisplayEditorMatchingConditions property of type CellEditorDisplayConditions."
+					name="RowDisplayEditorMatchingConditions"
+					readonly="False"
+					type="Xceed.Wpf.DataGrid.CellEditorDisplayConditions, Xceed.Wpf.DataGrid.v7.0, Version=7.0.20452.13100, Culture=neutral, PublicKeyToken=ba83ff368b7563c6">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Xceed.Wpf.DataGrid.DataCell.SelectionBackground property of type Brush."
+					name="SelectionBackground"
+					readonly="False"
+					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Xceed.Wpf.DataGrid.DataCell.SelectionForeground property of type Brush."
+					name="SelectionForeground"
+					readonly="False"
+					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Xceed.Wpf.DataGrid.DataCell.SnapsToDevicePixels property of type Boolean."
+					name="SnapsToDevicePixels"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Xceed.Wpf.DataGrid.DataCell.TabIndex property of type Int32."
+					name="TabIndex"
+					readonly="False"
+					type="System.Int32">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Xceed.Wpf.DataGrid.DataCell.Tag property of type Object."
+					name="Tag"
+					readonly="False"
+					type="System.Object">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Xceed.Wpf.DataGrid.DataCell.ToolTip property of type Object."
+					name="ToolTip"
+					readonly="False"
+					type="System.Object">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Xceed.Wpf.DataGrid.DataCell.Uid property of type String."
+					name="Uid"
+					readonly="False"
+					type="System.String"
+					weight="150">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Xceed.Wpf.DataGrid.DataCell.UseLayoutRounding property of type Boolean."
+					name="UseLayoutRounding"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Xceed.Wpf.DataGrid.DataCell.VerticalAlignment property of type VerticalAlignment."
+					name="VerticalAlignment"
+					readonly="False"
+					type="System.Windows.VerticalAlignment, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Xceed.Wpf.DataGrid.DataCell.VerticalContentAlignment property of type VerticalAlignment."
+					name="VerticalContentAlignment"
+					readonly="False"
+					type="System.Windows.VerticalAlignment, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Xceed.Wpf.DataGrid.DataCell.Visibility property of type Visibility."
+					name="Visibility"
+					readonly="False"
+					type="System.Windows.Visibility, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Xceed.Wpf.DataGrid.DataCell.Width property of type Double."
+					name="Width"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF Xceed.Wpf.DataGrid.DataCell.XmlNamespaceManager property of type Object."
+					name="XmlNamespaceManager"
+					readonly="False"
+					type="System.Object">
+					</dynamicattribute>
+					<dynamicaction
+					description="The WPF Xceed.Wpf.DataGrid.DataCell.BeginEdit method."
+					displayName="BeginEdit">
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.Void">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The WPF Xceed.Wpf.DataGrid.DataCell.CancelEdit method."
+					displayName="CancelEdit">
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.Void">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The WPF Xceed.Wpf.DataGrid.DataCell.EndEdit method."
+					displayName="EndEdit">
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.Void">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The WPF Xceed.Wpf.DataGrid.DataCell.FindFromChild method."
+					displayName="FindFromChild">
+						<argument
+						description="A method argument of type DataGridContext."
+						displayName="dataGridContext"
+						type="Xceed.Wpf.DataGrid.DataGridContext, Xceed.Wpf.DataGrid.v7.0, Version=7.0.20452.13100, Culture=neutral, PublicKeyToken=ba83ff368b7563c6">
+						</argument>
+						<argument
+						description="A method argument of type DependencyObject."
+						displayName="child"
+						type="System.Windows.DependencyObject, WindowsBase, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="Xceed.Wpf.DataGrid.Cell, Xceed.Wpf.DataGrid.v7.0, Version=7.0.20452.13100, Culture=neutral, PublicKeyToken=ba83ff368b7563c6">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The WPF Xceed.Wpf.DataGrid.DataCell.GetCellEditorContext method."
+					displayName="GetCellEditorContext">
+						<argument
+						description="A method argument of type DependencyObject."
+						displayName="obj"
+						type="System.Windows.DependencyObject, WindowsBase, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="Xceed.Wpf.DataGrid.CellEditorContext, Xceed.Wpf.DataGrid.v7.0, Version=7.0.20452.13100, Culture=neutral, PublicKeyToken=ba83ff368b7563c6">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The WPF Xceed.Wpf.DataGrid.DataCell.GetFittedWidth method."
+					displayName="GetFittedWidth">
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.Double">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The WPF Xceed.Wpf.DataGrid.DataCell.GetIsCellFocusScope method."
+					displayName="GetIsCellFocusScope">
+						<argument
+						description="A method argument of type DependencyObject."
+						displayName="obj"
+						type="System.Windows.DependencyObject, WindowsBase, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.Boolean">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The WPF Xceed.Wpf.DataGrid.DataCell.OnApplyTemplate method."
+					displayName="OnApplyTemplate">
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.Void">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The WPF Xceed.Wpf.DataGrid.DataCell.SetIsCellFocusScope method."
+					displayName="SetIsCellFocusScope">
+						<argument
+						description="A method argument of type DependencyObject."
+						displayName="obj"
+						type="System.Windows.DependencyObject, WindowsBase, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+						</argument>
+						<argument
+						description="A method argument of type Boolean."
+						displayName="value"
+						type="System.Boolean">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.Void">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The WPF Xceed.Wpf.DataGrid.DataCell.ToString method."
+					displayName="ToString">
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.String">
+						</returns>
+					</dynamicaction>
+				</element>
+				<path>
+					/form[@controlname='ShellEnv']/container[@controlname='_pnlLeft']/container[@controlname='_pnlDetails']/container[@controlname='_myTabControl']/element/element/container/container/container/tabpagelist/tabpage[@title='Templates']/container[@automationid='TemplatesViewTab']/container/table/container/element/element/container/container[2]/row[@index='8']/container/container/element/container/cell[@text='TestTemplate']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</mouseitem>
 	</recorditems>
 	<repository
 	id="49f1b5a8-d82b-4438-84b9-1ac958b39c9b"

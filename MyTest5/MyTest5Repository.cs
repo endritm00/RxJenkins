@@ -27,6 +27,7 @@ namespace MyTest5
     public partial class MyTest5Repository : RepoGenBaseFolder
     {
         static MyTest5Repository instance = new MyTest5Repository();
+        MyTest5RepositoryFolders.ShellEnvAppFolder _shellenv;
 
         /// <summary>
         /// Gets the singleton class instance representing the MyTest5Repository element repository.
@@ -43,6 +44,7 @@ namespace MyTest5
         public MyTest5Repository() 
             : base("MyTest5Repository", "/", null, 0, false, "04f203cf-482d-4add-8c13-3681543c3fad", ".\\RepositoryImages\\MyTest5Repository04f203cf.rximgres")
         {
+            _shellenv = new MyTest5RepositoryFolders.ShellEnvAppFolder(this);
         }
 
 #region Variables
@@ -60,6 +62,15 @@ namespace MyTest5
                 return _selfInfo;
             }
         }
+
+        /// <summary>
+        /// The ShellEnv folder.
+        /// </summary>
+        [RepositoryFolder("6de9f9a0-8f81-45bf-94a9-223c65223ad3")]
+        public virtual MyTest5RepositoryFolders.ShellEnvAppFolder ShellEnv
+        {
+            get { return _shellenv; }
+        }
     }
 
     /// <summary>
@@ -68,6 +79,72 @@ namespace MyTest5
     [System.CodeDom.Compiler.GeneratedCode("Ranorex", global::Ranorex.Core.Constants.CodeGenVersion)]
     public partial class MyTest5RepositoryFolders
     {
+        /// <summary>
+        /// The ShellEnvAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("6de9f9a0-8f81-45bf-94a9-223c65223ad3")]
+        public partial class ShellEnvAppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _testtemplateInfo;
+
+            /// <summary>
+            /// Creates a new ShellEnv  folder.
+            /// </summary>
+            public ShellEnvAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("ShellEnv", "/form[@controlname='ShellEnv']", parentFolder, 30000, null, true, "6de9f9a0-8f81-45bf-94a9-223c65223ad3", "")
+            {
+                _testtemplateInfo = new RepoItemInfo(this, "TestTemplate", "container[@controlname='_pnlLeft']/container[@controlname='_pnlDetails']/container[@controlname='_myTabControl']/element/element/container/container/container/tabpagelist/tabpage[@title='Templates']/container[@automationid='TemplatesViewTab']/container/table/container/element/element/container/container[2]/row[@index='8']/container/container/element/container/cell[@text='TestTemplate']", "", 30000, null, "89134210-5c80-4f6e-948c-b993c5ef08e5");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("6de9f9a0-8f81-45bf-94a9-223c65223ad3")]
+            public virtual Ranorex.Form Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("6de9f9a0-8f81-45bf-94a9-223c65223ad3")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The TestTemplate item.
+            /// </summary>
+            [RepositoryItem("89134210-5c80-4f6e-948c-b993c5ef08e5")]
+            public virtual Ranorex.Cell TestTemplate
+            {
+                get
+                {
+                    return _testtemplateInfo.CreateAdapter<Ranorex.Cell>(true);
+                }
+            }
+
+            /// <summary>
+            /// The TestTemplate item info.
+            /// </summary>
+            [RepositoryItemInfo("89134210-5c80-4f6e-948c-b993c5ef08e5")]
+            public virtual RepoItemInfo TestTemplateInfo
+            {
+                get
+                {
+                    return _testtemplateInfo;
+                }
+            }
+        }
+
     }
 #pragma warning restore 0436
 }

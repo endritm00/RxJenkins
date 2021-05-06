@@ -1,18 +1,62 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<repository
-name="MyTest5Repository"
-id="49f1b5a8-d82b-4438-84b9-1ac958b39c9b">
-  <codegen
-  classname="MyTest5Repository"
-  namespace="MyTest5"/>
-  <rootfolder
-  name="Root"
-  id="04f203cf-482d-4add-8c13-3681543c3fad"
-  searchtimeout="30000ms"
-  capname="unknown"
-  isrooted="True"
-  usecache="True">
-    <basepath/>
-  </rootfolder>
-  <variables/>
+﻿<repository
+id="49f1b5a8-d82b-4438-84b9-1ac958b39c9b"
+name="MyTest5Repository">
+	<codegen
+	classname="MyTest5Repository"
+	namespace="MyTest5">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="04f203cf-482d-4add-8c13-3681543c3fad"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,control,nativewindow"
+		capname="form"
+		id="6de9f9a0-8f81-45bf-94a9-223c65223ad3"
+		isrooted="True"
+		name="ShellEnv"
+		refpath="/form[@controlname='ShellEnv']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="cell,wpfelement"
+			capname="cell"
+			id="89134210-5c80-4f6e-948c-b993c5ef08e5"
+			name="TestTemplate"
+			refimgid="f842d059-4f30-4e9f-abfa-9add30ae33c8"
+			refpath="/form[@controlname='ShellEnv']/container[@controlname='_pnlLeft']/container[@controlname='_pnlDetails']/container[@controlname='_myTabControl']/element[@controlname='elementHost']/element[@win32ownerwindowlevel='0']/container[@caption='']/container[@caption='']/container[@caption='']/tabpagelist[@automationid='RootTab']/tabpage[@title='Templates']/container[@automationid='TemplatesViewTab']/container[@caption='']/table[@automationid='ExciterTemplates']/container[@caption='']/element/element[@automationid='PART_DragDropAdornerDecorator']/container[@automationid='PART_ScrollViewer']/container[2]/row[@index='8']/container[@automationid='rootGrid']/container[@automationid='PART_CellsHost']/element/container[@caption='']/cell[@text='TestTemplate']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@controlname='ShellEnv']/container[@controlname='_pnlLeft']/container[@controlname='_pnlDetails']/container[@controlname='_myTabControl']/element/element/container/container/container/tabpagelist/tabpage[@title='Templates']/container[@automationid='TemplatesViewTab']/container/table/container/element/element/container/container[2]/row[@index='8']/container/container/element/container/cell[@text='TestTemplate']
+			</item>
+			<basepath>
+				/form[@controlname='ShellEnv']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAMBSURBVDhPhZL9T1NnGIZPYWzwFxBnsgiLyZyY
+LBNwbiEzJLhEM8UfTAwKnZhZCmLcYkSpyCrWMPxAjXAGohQcVNQBLR8LCowPGWttEQWEQFekAmri
+osOPiJRevm1FazTxTq6cc3LOc+V+cl4JWJCYmJgSFxenDAsLWx8SErI2MDBwjSRJ378HX6Kjo935
+8iny5BI0ecfY8ctB1JlaVLuz2Zqx751sTkkjKCjovlcQGxs7K/fBzmZQmmBlJSw9DYt+g4WF8GnB
+22xvuI1oOeUVxMTEzNY5oOwGFPVAXjdktIL6T/hBCDcZBbWw0Y9DbX6CiIiI2SsTbi47fDTa3Vwc
+dKO/7ka2uTlucXP0HzdH/Ki86icIDQ11dU26aHHM0Dk2Q4egZXSGxpHn1Aw+x9A/zdnr05QJ9L0+
+antuvRYEBwe7TCNPOXttij/6H2EcfEztzcdc6HvE771TlFj/p9D8kHLrffrtE+R3PaDSYn8tEDeu
+E5b/yGi8zf7mSQ633yW/4673qmuZZMLpxFhTw5jDgVxQwPC/TgwVFURFRj7xChQKhWtn8zjfFd8k
+vnSIjRXDbKmys+W8nYYeJ3fGx6m+WIXN2knbX5exmFs4U1LMXo1menJsbKsUEBDwLCkpCaVSSXJy
+MiqVivT0dLRaLWWlpZiMF7jU1ESZXk9WZqZ4NlJ8Suab5dFkZ2XhbSHysQdxCueHh4d/kpaWhk6n
+Y6Cvjx7bFc4ZDBzOy50xGLJXnBP1U1LUooEK5+honW/cL+JoKywWi3fnIlmmva2ZjF276OpsTPa8
+b2+rr1sXH09u7s8sWbz4VYM34lnD02JwYID6hvOo1alUlJfTYKq+UywXsnrVKranb8LS3f33yxFf
+xGDRHDk5OVWFJ09Srj+NMinBOzTHgZyfiPzyC7I0mjcafCiYJ/hM8LmHa1brpV6brfrrr6LI3PMj
+B3U72JaawLKopdjMZm29yfSr+O5VFIIPBB7RR3OM2u1sFn9oZGjonmfnq2bzcMKGDXS0tn4rSZL0
+ApxKLZt4vxJeAAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
 </repository>

@@ -79,8 +79,8 @@ namespace MyTest5
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Website", "Opening web site 'google.com' with browser 'Chrome' in normal mode.", new RecordItemIndex(0));
-            Host.Current.OpenBrowser("google.com", "Chrome", "", false, false, false, false, false, true);
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ShellEnv.TestTemplate' at Center.", repo.ShellEnv.TestTemplateInfo, new RecordItemIndex(0));
+            repo.ShellEnv.TestTemplate.Click();
             Delay.Milliseconds(0);
             
         }
