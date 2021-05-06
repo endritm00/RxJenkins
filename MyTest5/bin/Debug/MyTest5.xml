@@ -24,9 +24,44 @@
             The Self item info.
             </summary>
         </member>
+        <member name="P:MyTest5.MyTest5Repository.ShellEnv">
+            <summary>
+            The ShellEnv folder.
+            </summary>
+        </member>
         <member name="T:MyTest5.MyTest5RepositoryFolders">
             <summary>
             Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:MyTest5.MyTest5RepositoryFolders.ShellEnvAppFolder">
+            <summary>
+            The ShellEnvAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:MyTest5.MyTest5RepositoryFolders.ShellEnvAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ShellEnv  folder.
+            </summary>
+        </member>
+        <member name="P:MyTest5.MyTest5RepositoryFolders.ShellEnvAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:MyTest5.MyTest5RepositoryFolders.ShellEnvAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MyTest5.MyTest5RepositoryFolders.ShellEnvAppFolder.TestTemplate">
+            <summary>
+            The TestTemplate item.
+            </summary>
+        </member>
+        <member name="P:MyTest5.MyTest5RepositoryFolders.ShellEnvAppFolder.TestTemplateInfo">
+            <summary>
+            The TestTemplate item info.
             </summary>
         </member>
         <member name="T:MyTest5.Recording1">

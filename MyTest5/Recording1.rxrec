@@ -189,17 +189,6 @@ mode="Global">
 					type="System.Windows.Media.CacheMode, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
 					</dynamicattribute>
 					<dynamicattribute
-					description="The WPF Xceed.Wpf.DataGrid.DataCell.CellDisplayEditorMatchingConditions property of type CellEditorDisplayConditions."
-					name="CellDisplayEditorMatchingConditions"
-					readonly="False"
-					type="Xceed.Wpf.DataGrid.CellEditorDisplayConditions, Xceed.Wpf.DataGrid.v7.0, Version=7.0.20452.13100, Culture=neutral, PublicKeyToken=ba83ff368b7563c6">
-					</dynamicattribute>
-					<dynamicattribute
-					description="The WPF Xceed.Wpf.DataGrid.DataCell.CellEditorContext property of type CellEditorContext."
-					name="CellEditorContext"
-					type="Xceed.Wpf.DataGrid.CellEditorContext, Xceed.Wpf.DataGrid.v7.0, Version=7.0.20452.13100, Culture=neutral, PublicKeyToken=ba83ff368b7563c6">
-					</dynamicattribute>
-					<dynamicattribute
 					description="The WPF Xceed.Wpf.DataGrid.DataCell.Clip property of type Geometry."
 					name="Clip"
 					readonly="False"
@@ -246,11 +235,6 @@ mode="Global">
 					name="DataContext"
 					readonly="False"
 					type="System.Object">
-					</dynamicattribute>
-					<dynamicattribute
-					description="The WPF Xceed.Wpf.DataGrid.DataCell.DataGridContext property of type DataGridContext."
-					name="DataGridContext"
-					type="Xceed.Wpf.DataGrid.DataGridContext, Xceed.Wpf.DataGrid.v7.0, Version=7.0.20452.13100, Culture=neutral, PublicKeyToken=ba83ff368b7563c6">
 					</dynamicattribute>
 					<dynamicattribute
 					description="The WPF Xceed.Wpf.DataGrid.DataCell.DefaultStyleKey property of type Object."
@@ -453,25 +437,10 @@ mode="Global">
 					type="System.Boolean">
 					</dynamicattribute>
 					<dynamicattribute
-					description="The WPF Xceed.Wpf.DataGrid.DataCell.ParentCell property of type Cell."
-					name="ParentCell"
-					type="Xceed.Wpf.DataGrid.Cell, Xceed.Wpf.DataGrid.v7.0, Version=7.0.20452.13100, Culture=neutral, PublicKeyToken=ba83ff368b7563c6">
-					</dynamicattribute>
-					<dynamicattribute
-					description="The WPF Xceed.Wpf.DataGrid.DataCell.ParentColumn property of type ColumnBase."
-					name="ParentColumn"
-					type="Xceed.Wpf.DataGrid.ColumnBase, Xceed.Wpf.DataGrid.v7.0, Version=7.0.20452.13100, Culture=neutral, PublicKeyToken=ba83ff368b7563c6">
-					</dynamicattribute>
-					<dynamicattribute
 					description="The WPF Xceed.Wpf.DataGrid.DataCell.ParentForeground property of type Brush."
 					name="ParentForeground"
 					readonly="False"
 					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
-					</dynamicattribute>
-					<dynamicattribute
-					description="The WPF Xceed.Wpf.DataGrid.DataCell.ParentRow property of type Row."
-					name="ParentRow"
-					type="Xceed.Wpf.DataGrid.Row, Xceed.Wpf.DataGrid.v7.0, Version=7.0.20452.13100, Culture=neutral, PublicKeyToken=ba83ff368b7563c6">
 					</dynamicattribute>
 					<dynamicattribute
 					description="The WPF Xceed.Wpf.DataGrid.DataCell.ReadOnly property of type Boolean."
@@ -490,12 +459,6 @@ mode="Global">
 					name="RenderTransformOrigin"
 					readonly="False"
 					type="System.Windows.Point, WindowsBase, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
-					</dynamicattribute>
-					<dynamicattribute
-					description="The WPF Xceed.Wpf.DataGrid.DataCell.RowDisplayEditorMatchingConditions property of type CellEditorDisplayConditions."
-					name="RowDisplayEditorMatchingConditions"
-					readonly="False"
-					type="Xceed.Wpf.DataGrid.CellEditorDisplayConditions, Xceed.Wpf.DataGrid.v7.0, Version=7.0.20452.13100, Culture=neutral, PublicKeyToken=ba83ff368b7563c6">
 					</dynamicattribute>
 					<dynamicattribute
 					description="The WPF Xceed.Wpf.DataGrid.DataCell.SelectionBackground property of type Brush."
@@ -609,7 +572,7 @@ mode="Global">
 						<argument
 						description="A method argument of type DataGridContext."
 						displayName="dataGridContext"
-						type="Xceed.Wpf.DataGrid.DataGridContext, Xceed.Wpf.DataGrid.v7.0, Version=7.0.20452.13100, Culture=neutral, PublicKeyToken=ba83ff368b7563c6">
+						type="System.Object">
 						</argument>
 						<argument
 						description="A method argument of type DependencyObject."
@@ -619,7 +582,7 @@ mode="Global">
 						<returns
 						description="Return value."
 						displayName="returns"
-						type="Xceed.Wpf.DataGrid.Cell, Xceed.Wpf.DataGrid.v7.0, Version=7.0.20452.13100, Culture=neutral, PublicKeyToken=ba83ff368b7563c6">
+						type="System.Object">
 						</returns>
 					</dynamicaction>
 					<dynamicaction
@@ -633,7 +596,7 @@ mode="Global">
 						<returns
 						description="Return value."
 						displayName="returns"
-						type="Xceed.Wpf.DataGrid.CellEditorContext, Xceed.Wpf.DataGrid.v7.0, Version=7.0.20452.13100, Culture=neutral, PublicKeyToken=ba83ff368b7563c6">
+						type="System.Object">
 						</returns>
 					</dynamicaction>
 					<dynamicaction
@@ -699,6 +662,151 @@ mode="Global">
 				</element>
 				<path>
 					/form[@controlname='ShellEnv']/container[@controlname='_pnlLeft']/container[@controlname='_pnlDetails']/container[@controlname='_myTabControl']/element/element/container/container/container/tabpagelist/tabpage[@title='Templates']/container[@automationid='TemplatesViewTab']/container/table/container/element/element/container/container[2]/row[@index='8']/container/container/element/container/cell[@text='TestTemplate']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="7150d2b2-7e89-4b0f-bce4-3d7c7a3e9771"
+		sx="273"
+		sy="32"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="b5b896c9-8112-476a-a03f-4e8d1acff68e"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="accessible"
+				dontcache="False"
+				enabled="True"
+				flavor="msaa"
+				hasfocus="False"
+				index="5"
+				prefcap="menuitem"
+				rect="254,23,39,19"
+				role="menuitem"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="checked"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						Help
+					</attribute>
+					<attribute
+					name="accessiblekeyboardshortcut"
+					type="System.String">
+						Alt+h
+					</attribute>
+					<attribute
+					name="accessiblename"
+					type="System.String">
+						Help
+					</attribute>
+					<attribute
+					name="accessiblerole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						MenuItem
+					</attribute>
+					<attribute
+					name="accessiblestate"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						Focusable, HasPopup
+					</attribute>
+				</element>
+				<path>
+					/form[@title='AeroScout Engine Manager']/menubar[@accessiblename='Application']/menuitem[@accessiblename='Help']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="91192f15-3386-4a37-8054-a5ece9272a3c"
+		sx="385"
+		sy="56"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="d9ff5564-76a3-419f-9630-69affddcb97f"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="accessible"
+				dontcache="False"
+				enabled="True"
+				flavor="msaa"
+				hasfocus="False"
+				index="0"
+				prefcap="menuitem"
+				rect="257,45,256,22"
+				role="menuitem"
+				snapElem=""
+				valid="False"
+				visible="True">
+					<attribute
+					name="checked"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						AeroScout Engine Manager Help
+					</attribute>
+					<attribute
+					name="accessibledefaultaction"
+					type="System.String">
+						Execute
+					</attribute>
+					<attribute
+					name="accessiblekeyboardshortcut"
+					type="System.String">
+						a
+					</attribute>
+					<attribute
+					name="accessiblename"
+					type="System.String">
+						AeroScout Engine Manager Help
+					</attribute>
+					<attribute
+					name="accessiblerole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						MenuItem
+					</attribute>
+					<attribute
+					name="accessiblestate"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						None
+					</attribute>
+				</element>
+				<path>
+					/contextmenu[@processname='EngineManager']/contextmenu/menuitem[@accessiblename&gt;'AeroScout Engine Manager']
 				</path>
 				<robustPath>
 				</robustPath>

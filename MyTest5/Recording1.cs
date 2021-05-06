@@ -83,6 +83,14 @@ namespace MyTest5
             repo.ShellEnv.TestTemplate.Click();
             Delay.Milliseconds(0);
             
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'AeroScoutEngineManager.Help' at Center.", repo.AeroScoutEngineManager.HelpInfo, new RecordItemIndex(1));
+            repo.AeroScoutEngineManager.Help.Click();
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'EngineManager.AeroScoutEngineManagerHelp' at Center.", repo.EngineManager.AeroScoutEngineManagerHelpInfo, new RecordItemIndex(2));
+            repo.EngineManager.AeroScoutEngineManagerHelp.Click();
+            Delay.Milliseconds(0);
+            
         }
 
 #region Image Feature Data
