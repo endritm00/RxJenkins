@@ -79,6 +79,10 @@ namespace MyTest5
 
             Init();
 
+            Report.Log(ReportLevel.Info, "Website", "Opening web site 'google.com' with browser 'Chrome' in normal mode.", new RecordItemIndex(0));
+            Host.Current.OpenBrowser("google.com", "Chrome", "", false, false, false, false, false, true);
+            Delay.Milliseconds(0);
+            
         }
 
 #region Image Feature Data

@@ -25,6 +25,25 @@ mode="Global">
 	<variables>
 	</variables>
 	<recorditems>
+		<openwebsiterecorditem
+		args=""
+		browser="Chrome"
+		clearcache="False"
+		clearcookies="False"
+		enabled="True"
+		incognito="False"
+		instrument="True"
+		killexisting="False"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<url>
+				google.com
+			</url>
+		</openwebsiterecorditem>
 	</recorditems>
 	<repository
 	id="49f1b5a8-d82b-4438-84b9-1ac958b39c9b"
