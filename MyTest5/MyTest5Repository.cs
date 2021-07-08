@@ -32,6 +32,7 @@ namespace MyTest5
         MyTest5RepositoryFolders.TaskSwitchingAppFolder _taskswitching;
         MyTest5RepositoryFolders.AeroScoutEngineManagerAppFolder _aeroscoutenginemanager;
         MyTest5RepositoryFolders.EngineManagerAppFolder _enginemanager;
+        MyTest5RepositoryFolders.RxSupportSalesforceAppFolder _rxsupportsalesforce;
 
         /// <summary>
         /// Gets the singleton class instance representing the MyTest5Repository element repository.
@@ -53,6 +54,7 @@ namespace MyTest5
             _taskswitching = new MyTest5RepositoryFolders.TaskSwitchingAppFolder(this);
             _aeroscoutenginemanager = new MyTest5RepositoryFolders.AeroScoutEngineManagerAppFolder(this);
             _enginemanager = new MyTest5RepositoryFolders.EngineManagerAppFolder(this);
+            _rxsupportsalesforce = new MyTest5RepositoryFolders.RxSupportSalesforceAppFolder(this);
         }
 
 #region Variables
@@ -114,6 +116,15 @@ namespace MyTest5
         public virtual MyTest5RepositoryFolders.EngineManagerAppFolder EngineManager
         {
             get { return _enginemanager; }
+        }
+
+        /// <summary>
+        /// The RxSupportSalesforce folder.
+        /// </summary>
+        [RepositoryFolder("05d48cbd-1d1a-4de5-8e27-e3dec455fcc0")]
+        public virtual MyTest5RepositoryFolders.RxSupportSalesforceAppFolder RxSupportSalesforce
+        {
+            get { return _rxsupportsalesforce; }
         }
     }
 
@@ -397,6 +408,72 @@ namespace MyTest5
                 get
                 {
                     return _aeroscoutenginemanagerhelpInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The RxSupportSalesforceAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("05d48cbd-1d1a-4de5-8e27-e3dec455fcc0")]
+        public partial class RxSupportSalesforceAppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _somedivtagInfo;
+
+            /// <summary>
+            /// Creates a new RxSupportSalesforce  folder.
+            /// </summary>
+            public RxSupportSalesforceAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("RxSupportSalesforce", "/dom[@domain='na158.lightning.force.com']", parentFolder, 30000, null, false, "05d48cbd-1d1a-4de5-8e27-e3dec455fcc0", "")
+            {
+                _somedivtagInfo = new RepoItemInfo(this, "SomeDivTag", "body/div[4]/div[1]/section/div[1]/div/div[2]/div[2]/section[7]/div/div/section/div/div[2]/div/div/div/div[2]/iframe//div[#'main']/div/div[1]/div/div/div/div[1]/div[2]/div[2]/div[3]/div/article/div[1]/div/div[1]/div/div[1]", "", 30000, null, "71586817-4c88-4852-8fc2-7b6ae5bfe21e");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("05d48cbd-1d1a-4de5-8e27-e3dec455fcc0")]
+            public virtual Ranorex.WebDocument Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.WebDocument>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("05d48cbd-1d1a-4de5-8e27-e3dec455fcc0")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The SomeDivTag item.
+            /// </summary>
+            [RepositoryItem("71586817-4c88-4852-8fc2-7b6ae5bfe21e")]
+            public virtual Ranorex.DivTag SomeDivTag
+            {
+                get
+                {
+                    return _somedivtagInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The SomeDivTag item info.
+            /// </summary>
+            [RepositoryItemInfo("71586817-4c88-4852-8fc2-7b6ae5bfe21e")]
+            public virtual RepoItemInfo SomeDivTagInfo
+            {
+                get
+                {
+                    return _somedivtagInfo;
                 }
             }
         }

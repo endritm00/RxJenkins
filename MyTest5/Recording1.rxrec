@@ -23,6 +23,10 @@ mode="Global">
 	namespace="MyTest5">
 	</codegen>
 	<variables>
+		<var
+		id="5488ff11-8da5-4f2d-b45a-59e9fd1e63ce"
+		name="a">
+		</var>
 	</variables>
 	<recorditems>
 		<mouseitem
@@ -667,151 +671,65 @@ mode="Global">
 				</robustPath>
 			</info>
 		</mouseitem>
-		<mouseitem
-		action="Click"
-		button="Left"
-		duration="300ms"
+		<getvaluerecorditem
+		attrname="Title"
 		enabled="True"
-		loc="Center"
-		movetime="300ms"
 		optional="False"
-		searchpropertyid="7150d2b2-7e89-4b0f-bce4-3d7c7a3e9771"
-		sx="273"
-		sy="32"
-		warnoutofbounds="False">
+		searchpropertyid="0d158a35-eb80-47f5-841a-f735e7c1bf48"
+		varname="a">
 			<comment>
 			</comment>
 			<bindings>
 			</bindings>
 			<info
-			id="b5b896c9-8112-476a-a03f-4e8d1acff68e"
+			id="71586817-4c88-4852-8fc2-7b6ae5bfe21e"
 			sourcename="RepositoryEditor">
 				<element
-				capabilities="accessible"
-				dontcache="False"
+				capabilities="webelement, divtag"
+				dontcache="True"
 				enabled="True"
-				flavor="msaa"
+				flavor="chromeweb"
 				hasfocus="False"
-				index="5"
-				prefcap="menuitem"
-				rect="254,23,39,19"
-				role="menuitem"
+				index="0"
+				prefcap="divtag"
+				rect="41,453,1215,365"
+				role="unknown"
 				snapElem=""
 				valid="True"
 				visible="True">
 					<attribute
-					name="checked"
-					type="System.Boolean">
+					name="draggable"
+					type="System.String">
 						False
 					</attribute>
 					<attribute
-					name="text"
+					name="hidden"
 					type="System.String">
-						Help
+						False
 					</attribute>
 					<attribute
-					name="accessiblekeyboardshortcut"
+					name="innertext"
 					type="System.String">
-						Alt+h
 					</attribute>
 					<attribute
-					name="accessiblename"
+					name="tagname"
 					type="System.String">
-						Help
+						div
 					</attribute>
-					<attribute
-					name="accessiblerole"
-					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-						MenuItem
-					</attribute>
-					<attribute
-					name="accessiblestate"
-					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-						Focusable, HasPopup
-					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="style"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
 				</element>
 				<path>
-					/form[@title='AeroScout Engine Manager']/menubar[@accessiblename='Application']/menuitem[@accessiblename='Help']
+					/dom[@domain='na158.lightning.force.com']/body/div[4]/div[1]/section/div[1]/div/div[2]/div[2]/section[7]/div/div/section/div/div[2]/div/div/div/div[2]/iframe//div[#'main']/div/div[1]/div/div/div/div[1]/div[2]/div[2]/div[3]/div/article/div[1]/div/div[1]/div/div[1]
 				</path>
 				<robustPath>
 				</robustPath>
 			</info>
-		</mouseitem>
-		<mouseitem
-		action="Click"
-		button="Left"
-		duration="300ms"
-		enabled="True"
-		loc="Center"
-		movetime="300ms"
-		optional="False"
-		searchpropertyid="91192f15-3386-4a37-8054-a5ece9272a3c"
-		sx="385"
-		sy="56"
-		warnoutofbounds="False">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="d9ff5564-76a3-419f-9630-69affddcb97f"
-			sourcename="RepositoryEditor">
-				<element
-				capabilities="accessible"
-				dontcache="False"
-				enabled="True"
-				flavor="msaa"
-				hasfocus="False"
-				index="0"
-				prefcap="menuitem"
-				rect="257,45,256,22"
-				role="menuitem"
-				snapElem=""
-				valid="False"
-				visible="True">
-					<attribute
-					name="checked"
-					type="System.Boolean">
-						False
-					</attribute>
-					<attribute
-					name="text"
-					type="System.String">
-						AeroScout Engine Manager Help
-					</attribute>
-					<attribute
-					name="accessibledefaultaction"
-					type="System.String">
-						Execute
-					</attribute>
-					<attribute
-					name="accessiblekeyboardshortcut"
-					type="System.String">
-						a
-					</attribute>
-					<attribute
-					name="accessiblename"
-					type="System.String">
-						AeroScout Engine Manager Help
-					</attribute>
-					<attribute
-					name="accessiblerole"
-					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-						MenuItem
-					</attribute>
-					<attribute
-					name="accessiblestate"
-					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-						None
-					</attribute>
-				</element>
-				<path>
-					/contextmenu[@processname='EngineManager']/contextmenu/menuitem[@accessiblename&gt;'AeroScout Engine Manager']
-				</path>
-				<robustPath>
-				</robustPath>
-			</info>
-		</mouseitem>
+		</getvaluerecorditem>
 	</recorditems>
 	<repository
 	id="49f1b5a8-d82b-4438-84b9-1ac958b39c9b"

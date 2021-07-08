@@ -41,6 +41,7 @@ namespace MyTest5
         /// </summary>
         public Recording1()
         {
+            a = "";
         }
 
         /// <summary>
@@ -52,6 +53,18 @@ namespace MyTest5
         }
 
 #region Variables
+
+        string _a;
+
+        /// <summary>
+        /// Gets or sets the value of variable a.
+        /// </summary>
+        [TestVariable("5488ff11-8da5-4f2d-b45a-59e9fd1e63ce")]
+        public string a
+        {
+            get { return _a; }
+            set { _a = value; }
+        }
 
 #endregion
 
@@ -83,12 +96,8 @@ namespace MyTest5
             repo.ShellEnv.TestTemplate.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'AeroScoutEngineManager.Help' at Center.", repo.AeroScoutEngineManager.HelpInfo, new RecordItemIndex(1));
-            repo.AeroScoutEngineManager.Help.Click();
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'EngineManager.AeroScoutEngineManagerHelp' at Center.", repo.EngineManager.AeroScoutEngineManagerHelpInfo, new RecordItemIndex(2));
-            repo.EngineManager.AeroScoutEngineManagerHelp.Click();
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'Title' from item 'RxSupportSalesforce.SomeDivTag' and assigning its value to variable 'a'.", repo.RxSupportSalesforce.SomeDivTagInfo, new RecordItemIndex(1));
+            a = repo.RxSupportSalesforce.SomeDivTag.Element.GetAttributeValueText("Title");
             Delay.Milliseconds(0);
             
         }
